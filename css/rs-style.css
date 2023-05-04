@@ -217,12 +217,15 @@ nav .content .links{
     width: 200px;
   }
   .footer .main-btn {
-    height: 38px;
+    height: 38.5px;
     width: auto;
     padding: 5px;
   }
 }
 @media (max-width:400px) {
+  .footer .main-btn {
+    height: 38.5px;
+  }
   .view-btn-container {
     left: 36%;
 }
