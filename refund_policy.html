@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seagull Publications</title>
+    <!-- font-awesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Bootstrap Cdn  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- googel fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+    <!-- css  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/rs-style.css" />
+    <link rel="stylesheet" href="css/appbar.css" />
+    <style>
+        .payment-gateway{
+            padding-top: 45px;
+            padding-bottom: 40px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="header-top" style="background-color: #000; padding: 10px;display: flex;">
+        <div class="container" id="top_header_flex">
+          <div></div>
+          <i class="fa-sharp fa-solid fa-envelope" style="color: #f7f7f7;"></i>
+          <span style="color: #f7f7f7;padding-left: 5px;">anupspbd@gmail.com</span>
+          <div style=" margin-right: 20px" id="top_header_favicon_flex">
+            <div class="myicon" style="color: #f7f7f7;">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter ms-2"></i></a>
+              <a href="#"><i class="fab fa-linkedin ms-2"></i></a>
+              <a href="#"><i class="fab fa-youtube ms-2"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+      <div class="wrapper ">
+      
+        <nav>
+          <input type="checkbox" id="show-search" />
+          <input type="checkbox" id="show-menu" />
+          <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+          <div class="content">
+            <div class="logo">
+              <a href="index.html"><img src="./images/logo.png" alt="" /></a>
+            </div>
+            <ul class="links">
+              <!-- Our Services -->
+              <li>
+                <a href="#" class="desktop-link">Our Services<i class="fa-sharp fa-solid fa-angle-down fw-icon"></i></a>
+                <input type="checkbox" id="show-features" />
+                <label for="show-features">Our Services<i class="fa-sharp fa-solid fa-angle-down fw-icon"></i></label>
+                <ul >
+                  <li><a href="book_publications.html">Book Publications</a></li>
+                  <li><a href="journal_publications.html">Journal Publication</a></li>
+                  <li><a href="conferance_solutions.html">Conference Solution</a></li>
+                  <li><a href="scholars_solutions.html">Scholars Solution</a></li>
+                </ul>
+              </li>
+              <!-- Submission Process -->
+              <li>
+                <a href="#" class="desktop-link">Submission Process <i class="fa-sharp fa-solid fa-angle-down fw-icon"></i></a>
+                <input type="checkbox" id="Submission-features" />
+                <label for="Submission-features">Submission Process<i class="fa-sharp fa-solid fa-angle-down fw-icon"></i></label>
+                <ul>
+                  <li><a href="book_submission.html">Book Submission</a></li>
+                  <li><a href="journal_submission.html">Journal Submission</a></li>
+                </ul>
+              </li>
+              <!-- Products  -->
+              <li>
+                <a href="#" class="desktop-link">Products <i class="fa-sharp fa-solid fa-angle-down fw-icon"></i> </a>
+                <input type="checkbox" id="products-features" />
+                <label for="products-features">Products <i class="fa-sharp fa-solid fa-angle-down fw-icon"></i></label>
+                <ul>
+                  <li><a href="journal_AtoZ.html">Journals List (A-Z)</a></li>
+                  <li><a href="browose_product.html">Books & Journals Shop</a></li>
+                  <li><a href="e-services.html">E-Services for Scholars</a></li>
+                </ul>
+              </li>
+              <!-- Payment  -->
+              <li>
+                <a href="#" class="desktop-link">Payment <i class="fa-sharp fa-solid fa-angle-down fw-icon"></i> </a>
+                <input type="checkbox" id="payment-features" />
+                <label for="payment-features">Payment <i class="fa-sharp fa-solid fa-angle-down fw-icon"></i></label>
+                <ul>
+                  <li><a href="how_to_pay.html">How to Pay</a></li>
+                  <li><a href="payment_gatway.html">Payment Gateway</a></li>
+                  <li><a href="refund_policy.html">Refund Policy</a></li>
+                </ul>
+              </li>
+              <!-- About   -->
+              <li>
+                <a href="#" class="desktop-link">About <i class="fa-sharp fa-solid fa-angle-down fw-icon"></i></a>
+                <input type="checkbox" id="about-features" />
+                <label for="about-features">About<i class="fa-sharp fa-solid fa-angle-down fw-icon"></i></label>
+                <ul>
+                  <li><a href="about_us.html">About Us</a></li>
+                  <li><a href="#">Latest Blogs</a></li>
+                  <li><a href="#">Latest News</a></li>
+                  <li><a href="terms_services.html">Terms of Service</a></li>
+                  <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                  <li><a href="contact-us.html">Contact Us</a></li>
+                  <li><a href="help_and_saport.html">Help & Support</a></li>
+                </ul>
+              </li>
+  
+              <li ><a href="#" class="login_mobile">Log In</a></li>
+              <li> <button class="main-btn login_btn btn_hover" >Get Started</button></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <main>
+        
+      
+        <!-- Refund policy  -->
+        <section id="payment-gateway">
+          <div class="container">
+            <div class="payment-gateway">
+              <div class="row">
+                <div class="col-lg-8">
+                  <div class="news_info">
+                    <h2>Refund Policy</h2>
+                    <p id="page_publications_lh">
+                      Seagull accepts online returns of non-sale, unworn/unwashed merchandise with original tags attached within 30 calendar days from the date of delivery. All products must be
+                      returned in its original packaging and with all related accessories included. Items in gift sets may not be separated and must be returned complete in its original packaging. All
+                      refunds will be applied to the original payment method. If you return a package that does not meet this criterion, it will be denied. All denied returns will not receive a refund
+                      and will be forfeited. Original shipping fees are non-refundable.
+                    </p>
+                    <img class="img-fluid" src="images/Line 2.png" alt="" />
+
+                    <h2>All eBooks are Final Sale.</h2>
+                    <p id="page_publications_lh">No returns or exchanges. Previous purchases are not eligible for discount. Sale items are ineligible for price adjustments.</p>
+                    <img class="img-fluid" src="images/Line 2.png" alt="" />
+                    <h2>All Subscriptions (eBooks and Electronic Journals) are Final Sale.</h2>
+                    <p>No returns or exchanges. Previous purchases are not eligible for discount. Sale items are ineligible for price adjustments.</p>
+
+                    <img class="img-fluid" src="images/Line 2.png" alt="" />
+                    <p id="page_publications_lh">
+                      Our return process is convenient and easy. Included with each purchase invoice is a return form with a prepaid DHL or FedEx return shipping label. 1. To ensure accurate
+                      processing, please fill out the returns form included in the box of your original purchase. There is a section for return items and the reason for your return. Include this in
+                      your return package. Return Codes (Please select applicable code) 01 Did not like styling 04 Quality does not equal price 07 Ordered wrong Book 08 Not as described 09 Not as
+                      pictured 10 Shipping damage 11 Wrong item shipped 12 Arrived too late 13 Defective 14 Other2. Using the prepaid DHL or FedEx Merchandise Return label included in your original
+                      order:
+                    </p>
+                    <img class="img-fluid" src="images/Line 2.png" alt="" />
+                    <h2>For DHL RETURNS:</h2>
+                    <p id="page_publications_lh">
+                      Fill out your name, address, order number and affix squarely onto the address side of your return package. <span style="color: #0FB75E;font-size: 18px;">●</span> There is a "DHL Tracking #" sticker included with your packing slip.
+                      Remove this sticker and place it near your "Merchandise Return Label" on your return package. <span style="color: #0FB75E;font-size: 18px;">●</span> To ensure we receive your return properly, include your original order receipt
+                      inside your return package; indicating the item(s) and the reason for your return. <span style="color: #0FB75E;font-size: 18px;">●</span> Drop your package in a secure mailbox, give it to your postal carrier or take it to your
+                      local post office. <span style="color: #0FB75E;font-size: 18px;">●</span> Once we receive your return, we will deduct a $7.95 fee from the return balance due to account for the return postage. <span style="color: #0FB75E;font-size: 18px;">●</span> The prepaid return label is
+                      optional. You are free to use your own return services at your discretion.
+                    </p>
+                    <img class="img-fluid" src="images/Line 2.png" alt="" />
+                    <h2>For FEDEX RETURNS:</h2>
+                    <p id="page_publications_lh">
+                      <span style="color: #0FB75E;font-size: 18px;">●</span> Affix the pre-filled out label on your return package. <span style="color: #0FB75E;font-size: 18px;">●</span> To ensure we receive your return properly, include your original order receipt inside your return package; indicating
+                      the item(s) and the reason for your return. <span style="color: #0FB75E;font-size: 18px;">●</span> Drop your package at a local FedEx Office. <span style="color: #0FB75E;font-size: 18px;">●</span> Once we receive your return, we will deduct a $7.95 fee from the return balance due to
+                      account for the return postage. <span style="color: #0FB75E;font-size: 18px;">●</span> The prepaid return label is optional. You are free to use your own return services at your discretion. 3. Bring your package to the nearest
+                      carrier facility. 4. If you are not using the prepaid return label, make sure you send all online returns to: Seagull Publications BA-137/1, South Badda Dhaka-1212 Bangladesh.
+                      For your protection be sure to ship the package with a carrier that can provide tracking and insurance. Seagull cannot provide credit for packages lost during return shipment if
+                      proof of delivery is unavailable.
+                    </p>
+                    <img class="img-fluid" src="images/Line 2.png" alt="" />
+                    <h2>IMPORTANT NOTES:</h2>
+                    <p id="page_publications_lh">
+                      - To process the return through the border a Commercial Invoice must be completed for the return. - We cannot accept C.O.D. deliveries. - All refunds will be credited in the
+                      payment form used for the original purchase.
+                    </p>
+                    <img class="img-fluid" src="images/Line 2.png" alt="" />
+                    <h2>Store Returns</h2>
+                    <p id="page_publications_lh">
+                      You may choose to return any item that you have purchased online at one of our store locations within 30 calendar days from the date of delivery. Simply bring a copy of your
+                      original invoice that was included in your order package. We cannot accept returns without your original invoice. Your return will be exchanged for a Seagull gift card good at
+                      any of our Seagull store locations.
+                    </p>
+                    <img class="img-fluid" src="images/Line 2.png" alt="" />
+
+                    <h2>International Store Returns</h2>
+                    <p id="page_publications_lh">
+                      Online purchases cannot be returned to Seagull international retail store locations.
+                    </p>
+                    <img class="img-fluid" src="images/Line 2.png" alt="" />
+                    <h2>Return Notifications</h2>
+                    <p id="page_publications_lh">
+                        You will be notified via email once your return has been processed. Please note that this email will be sent to the email address provided on your original order. Your return credit will be placed on the original form of payment and will appear on your next statement (generally 10-14 days, depending on your bank).
+                    </p>
+                    <img class="img-fluid" src="images/Line 2.png" alt="" />
+                    <h2>Order Cancellation Policy</h2>
+                    <p id="page_publications_lh">
+                        We want you to get your order as soon as possible, so we begin processing it immediately after you place it. Once your order has been submitted, we are unable to cancel or make changes to the order. Please review your order very carefully prior to clicking the 'Place Order' button on checkout page.
+                    </p>
+                    <img class="img-fluid" src="images/Line 2.png" alt="" />
+                  
+                    <p id="page_publications_lh">
+                        For more information, please contact our customer service department..
+                    </p>
+                    <img class="img-fluid" src="images/Line 2.png" alt="" />
+                    
+                    
+                  </div>
+                </div>
+                <!-- second part  -->
+                <div class="col-lg-4 news">
+                  <div class="sidebar">
+                    <div class="sidebar_widget">
+                      <form class="form-inline my-2 my-lg-0" style="display: flex;">
+                        <div class="search-wrap">
+                          <input class="form-control mr-sm-2" type="search" aria-label="Search" />
+                        </div>
+                        <div class="search-wrap-out">
+                          <button class="main-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="sidebar_links">
+                      <h4 class="mt-4">IN THIS ARTICLE</h4>
+                      <img class="img-fluid" src="images/Rectangle 12.png" alt="" />
+                      <img class="img-fluid" src="images/Rectangle 13.png" alt="" style="margin-left: -20px" />
+                      <ul class="list-unstyled">
+                        <li class="mb-2 journal_li"><i class="fa-solid fa-chevron-right" style="color: #000;font-size: 14px;"></i><a href="">All Subscriptions are Final Sale</a></li>
+                        <li class="mb-2 journal_li"><i class="fa-solid fa-chevron-right" style="color: #000;font-size: 14px;"></i><a href="">All eBooks are Final Sale</a></li>
+                        <li class="mb-2 journal_li"><i class="fa-solid fa-chevron-right" style="color: #000;font-size: 14px;"></i><a href="">For DHL RETURNS</a></li>
+                        <li class="mb-2 journal_li"><i class="fa-solid fa-chevron-right" style="color: #000;font-size: 14px;"></i><a href="">For FEDEX RETURNS</a></li>
+                        <li class="mb-2 journal_li"><i class="fa-solid fa-chevron-right" style="color: #000;font-size: 14px;"></i><a href="">IMPORTANT NOTES</a></li>
+                        <li class="mb-2 journal_li"><i class="fa-solid fa-chevron-right" style="color: #000;font-size: 14px;"></i><a href="">Store Returns</a></li>
+                        <li class="mb-2 journal_li"><i class="fa-solid fa-chevron-right" style="color: #000;font-size: 14px;"></i><a href="">International Store Returns</a></li>
+                        <li class="mb-2 journal_li"><i class="fa-solid fa-chevron-right" style="color: #000;font-size: 14px;"></i><a href="">Return Notifications</a></li>
+                        <li class="mb-2 journal_li"><i class="fa-solid fa-chevron-right" style="color: #000;font-size: 14px;"></i><a href="">Order Cancellation Policy</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+       
+       
+      </main>
+
+    <!-- footer section -->
+    <footer id="footer">
+      <div class="footer">
+        <div class="container ">
+          <div class="row ">
+            <div class="col-lg-2 col-md-6 ">
+              <h4 class="responsive_mobile">Our Products</h4>
+              <ul class="list-unstyled">
+                <li><a href="browose_product.html">Books</a></li>
+                <li><a href="browose_product.html">Journals</a></li>
+                <li><a href="browose_product.html">E-Book</a></li>
+                <li><a href="#">Shwadhin</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6">
+              <h4 class="responsive_mobile">About Seagull</h4>
+              <ul class="list-unstyled">
+                <li><a href="browose_product.html">Visit Shop</a></li>
+                <li><a href="#">Latest Events</a></li>
+                <li><a href="#">Latest Blogs</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6">
+              <h4 class="responsive_mobile">Help & Support</h4>
+              <ul class="list-unstyled">
+                <li><a href="file_complain.html">Submit & Complaint</a></li>
+                <li><a href="refund_policy.html">Refund Policy</a></li>
+                <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                <li><a href="terms_services.html">Terms of Services</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6">
+              <h4 class="responsive_mobile">Follow Us</h4>
+              
+              <p style="color: #f7f7f7;" class="let_us">Let us be social</p>
+              <div class="social-icon mt-2">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter ms-2"></i></a>
+                <a href="#"><i class="fab fa-linkedin ms-2"></i></a>
+                <a href="#"><i class="fab fa-youtube ms-2"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-4 mt-3 mt-md-0">
+              <h4 class="responsive_mobile">LatestNews</h4>
+              <p class="p" style="color: #f7f7f7;">Seagull Latest news delivered right to your inbox!</p>
+              <form action="">
+                <div class="mt-4 d-flex justify-content-center">
+                  <div class="input-wrap">
+                    <input class="form-control" type="email" placeholder="Enput your email" name="email" />
+                  </div>
+                  <div class="input-wrap-out">
+                    <button type="submit" class="main-btn btn_hover">Subscribe</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- hr part  -->
+          <div class="hr mt-4">
+            <hr />
+          </div>
+          <!-- copyright part  -->
+          <div class="copyright text-center">
+            <p class="copyright_mediaquery_footer">Copyright &copy 2022 <span>Seagull Publications</span> - All rights reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    </div>
+
+    <!-- javastript  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
