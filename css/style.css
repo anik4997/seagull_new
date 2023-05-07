@@ -399,7 +399,7 @@ p {
 }
 .img-fluid{
   /* new code */
-    z-index: 9;
+    /* z-index: 9; */
     position: relative;
     display: inline-block;
   /* new code end */
@@ -407,28 +407,25 @@ p {
     border-radius: 3px;
     padding: 2px;
 }
-.img-fluid:hover{
-  opacity: 0.1;
-  transition: 0.3s;
-}
 .img-container{
   position: relative;
 }
-.img-container:hover .view-btn-container {
+.product_grid_item:hover .view-btn{
   display: block;
-  cursor: pointer;
+} 
+.img-container:hover .img-fluid {
+  filter: blur(3px);
+  transition: 0.3s;
 }
-.view-btn-container{
-  position: absolute;
-  top: 45%;
-  left: 36%;
-  transition: opacity 0.3s ease;
-}
-.view-btn-container:hover .img-fluid{
-  opacity: 0.8;
+.view-btn:hover{
+  background-color: rgb(57, 161, 57);;
 }
 .view-btn{
-    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
     height: 40px;
     width: 100px;
     line-height: 19px;
