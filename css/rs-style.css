@@ -5,17 +5,11 @@
   }
 }
 @media (min-width: 1024px) {
-  .view-btn-container {
-    left: 31%;
-}
 }
 /* new code */
 
 @media (max-width: 1024px) {
   /* new code */
-  .view-btn-container {
-    left: 30%;
-}
   nav .content .links{
     top: 0px; 
     margin-left: 0px !important;
@@ -30,9 +24,6 @@
 }
 @media (max-width: 991px) {
   /* new code */
-  .view-btn-container {
-    left: 21%;
-}
   .sidebar_mobile_view_top{
     display: none;
   }
@@ -72,9 +63,6 @@
 
 @media (max-width: 767px) {
   /* new code */
-  .view-btn-container {
-    left: 40%;
-}
   #pills-rev-tab{
     justify-content: center;
   }
@@ -226,9 +214,6 @@ nav .content .links{
   .footer .main-btn {
     height: 38.5px;
   }
-  .view-btn-container {
-    left: 36%;
-}
   .menu-icon{
     padding-left: 56px;
   }
@@ -280,9 +265,6 @@ nav .content .links{
 }
 }
 @media (max-width: 330px) {
-  .view-btn-container {
-    left: 31%;
-}
   /* prayment start  */
   .sidebar .sidebar_widget .search-wrap {
     height: auto;
