@@ -177,7 +177,7 @@ nav .content .links {
 
     height: 100%;
     width: 100%;
-    top: 44px;
+    /* top: 44px; */
     left: -100%;
     margin-left: 0 !important;
     /* commented out max width */
@@ -372,3 +372,5 @@ nav .content .links {
     margin-left: 0px;
   }
 }
+
+
