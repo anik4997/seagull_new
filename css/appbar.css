@@ -16,6 +16,7 @@
 nav .content {
   display: flex;
   align-items: center;
+  height: 70px;
 }
 nav .content .links {
   margin-left: 50px;
